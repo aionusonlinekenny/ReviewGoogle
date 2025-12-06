@@ -1,0 +1,5 @@
+{
+  "name": "ReviewReply AI",
+  "description": "An intelligent assistant for business owners to automatically generate professional, empathetic, and context-aware replies to Google Reviews using Gemini AI.",
+  "requestFramePermissions": []
+}
