@@ -16,7 +16,7 @@ export const initGoogleAuth = (clientId: string, callback: (response: any) => vo
   if (window.google && window.google.accounts) {
     // @ts-ignore
     return window.google.accounts.oauth2.initTokenClient({
-      client_id: clientId,
+      client_id: clientId.trim(),
       scope: SCOPES,
       callback: callback,
     });
